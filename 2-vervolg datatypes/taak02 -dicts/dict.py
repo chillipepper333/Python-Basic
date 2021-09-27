@@ -29,7 +29,7 @@ Provinciehoofdsteden['Drenthe'] = "Assen"
 
 #7
 #del Provinciehoofdsteden['Drenthe']
-print(Provinciehoofdsteden)
+#print(Provinciehoofdsteden)
 
 woordenboek = {
     'Huis' : 'een gebouw waarin mensen wonnen',
@@ -38,4 +38,6 @@ woordenboek = {
     'rugzak' : 'een tas die je op je rug kan doen',
     'bureau' : 'een plek om op te werken',
 }
-print(woordenboek)
+
+for i in woordenboek.items():
+    print(i) 
