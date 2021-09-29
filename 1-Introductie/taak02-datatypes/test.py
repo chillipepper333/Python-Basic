@@ -1,10 +1,12 @@
 import time
 
-i = 1
-while i <20:
-  b=(19-i)*"--" 
-  c=(0+i)*"A"
-  d=c+b+c  
-  print(d)
-  time.sleep(0.05)
-  i += 1
+def keerdelistom(x):
+    for i in reversed(x):
+        print(i, end= ' ')
+    print()
+    return
+# functies hierboven
+# main program hieronder
+a = ["maandag","dinsdag","woensdag","donderdag","vrijdag","zaterdag","zondag"]
+keerdelistom(a)
+print('End program')
